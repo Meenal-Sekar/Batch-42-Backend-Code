@@ -1,0 +1,29 @@
+
+
+server.js   index.js  app.js
+
+
+1. server.js
+2. npm init --y
+3. npm i express
+4.  import (require)  express
+5. app=express()
+
+6. app.listen(3000,()=>
+{
+  console.log('testing')
+})
+7: how do we run     node index.js
+8.  how do make it automatic   (
+npm i -D nodemon)
+
+server : port number   https://4500   (listen)
+
+
+node package manager  
+
+
+devlopement   / deployement
+
+npm i express         nodemon  , nodemodules
+
