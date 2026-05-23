@@ -1,0 +1,36 @@
+What is cors package?
+------------------------------------------------------
+
+The CORS package is used in backend applications (commonly with Express.js) 
+to allow or control requests coming from different domains (origins).
+
+Why CORS is Needed
+
+Browsers follow a security rule called Same-Origin Policy.
+
+This means:
+
+Frontend → http://localhost:3000
+Backend → http://localhost:5000
+
+Even though both run on your computer, the browser treats them as different origins because the ports are different.
+
+Without CORS, the browser blocks the request.
+
+What is .env?
+-----------------------------------------------------------------
+
+An .env file is used to store environment variables in a project.
+It helps keep sensitive information and configuration values separate from your main code.
+
+Why use .env file?
+
+Instead of writing secrets directly in code:
+
+const password = "mysecret123";
+
+We store them safely in .env:
+
+DB_PASSWORD=mysecret123
+
+Then access them in code.
